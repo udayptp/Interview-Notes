@@ -1,0 +1,37 @@
+paradigm = "different ways or styles in which a given program or programming language can be organized."
+
+What is oops?
+OOPs, or Object-Oriented Programming is a programming model or paradigm which revolves around the
+concept of “OBJECTS” and "classes". Objects can be considered as real-world instances of a class, that
+contain some "characteristics" and "behaviors" specified in the class template.
+
+What is class and object?
+In simple language, a class can be considered as the blueprint or template, based on
+which objects can be created. So the Objects are considered the instance of a class, The term
+“characteristics” refers to the “what” about the Object, and the term “behavior” refers to the
+“how” about the Object.
+"Characteristics" are also known as data variables, or attributes, and "Behaviours" are also known
+as the methods, in the programming language.
+
+For ex-
+Class = A specific car model, such as Audi A4, BMW I8, Maruti Suzuki Vitara Brezza, etc.
+Object = A specific car of any model, like the car you own
+Characteristics = What is the color of our car? and number of our car? etc
+Behavior = How to start the car? How to change the gear of the car? etc.
+
+What is need of oops?
+There are many reasons why OOPs is mostly preferred, and many of the most widely used programming
+languages support and use this model, such as Java, C++, Python, C#, etc.
+but the most important among them are-
+1-OOP concepts help the programmer control and access the data in a program easily. In addition, it
+improves code readability and reusability.
+2-With oops a big software can be easily written and managed using OOPs.
+3-Using functionalities like data abstraction and data hiding, OOPs ensure the security of the code/software.
+4-OOP concepts like inheritance helps us to eliminate the code redundancy.
+5-Increases productivity of a developer and save development time.
+
+Cons of oops-
+1-Everything is treated as object in OOP so before applying it we need to have excellent thinking in
+terms of objects.
+2-Requires much effort to create a perfect OOP concept-based code.
+
