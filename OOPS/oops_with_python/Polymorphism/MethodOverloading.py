@@ -1,4 +1,5 @@
 """
+Its compile time polymorphism feature.
 Unlike many other popular object-oriented programming languages such as Java, Python doesn’t support
 compile-time polymorphism or method overloading. If a class or Python script has multiple methods with
 the same name, the method defined in the last will override the earlier one.

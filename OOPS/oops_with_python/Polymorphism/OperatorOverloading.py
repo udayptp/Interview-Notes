@@ -1,5 +1,6 @@
 """
 compile time polymorphism - method and operator overloading
+compile time polymorphism feature.
 Operator Overloading in Python
 Python supports operator overloading. This is another type of polymorphism where an operator behaves
 differently based on the type of the operands.

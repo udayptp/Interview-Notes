@@ -1,11 +1,11 @@
 paradigm = "different ways or styles in which a given program or programming language can be organized."
 
-What is oops?
+1. What is oops?
 OOPs, or Object-Oriented Programming is a programming model or paradigm which revolves around the
 concept of “OBJECTS” and "classes". Objects can be considered as real-world instances of a class, that
 contain some "characteristics" and "behaviors" specified in the class template.
 
-What is class and object?
+2. What is class and object?
 In simple language, a class can be considered as the blueprint or template, based on
 which objects can be created. So the Objects are considered the instance of a class, The term
 “characteristics” refers to the “what” about the Object, and the term “behavior” refers to the
@@ -19,7 +19,7 @@ Object = A specific car of any model, like the car you own
 Characteristics = What is the color of our car? and number of our car? etc
 Behavior = How to start the car? How to change the gear of the car? etc.
 
-Ques-  What is need/advantages of oops?
+3.  What is need/advantages of oops?
 most widely used programming languages support and use this model, such as Java, C++, Python, C#, etc.
 
 1-OOP concepts help the programmer easily access, use or modify the object data or methods in a program easily.
@@ -36,12 +36,12 @@ most widely used programming languages support and use this model, such as Java,
 terms of objects.
 2-Requires much effort to create a perfect OOP concept-based code.
 
-Q- What are some other programming paradigms other than OOPs?
+4. What are some other programming paradigms other than OOPs?
 ** Procedural Programming Paradigm ** :  Procedural programming specifies the steps a program must take to reach the
 desired state, usually read in order from top to bottom.
 (In simple language execution happens step by step from top to bottom)
 
-Q- What are the main features of OOPs?
+5.  What are the main features of OOPs?
 there are 4 main features in oops.
 1-Inheritance
 2-Encapsulation
@@ -87,3 +87,115 @@ in OOPs.
 that happens at the run time. What it means is it can't be decided by the compiler. Therefore what shape or
 value has to be taken depends upon the execution.
 In runtime polymorphism inheritence is involved and we can override the method of base class in subclasses.
+
+--- polymorphism advantages ---
+It helps the programmer to reuse the codes, i.e., classes once written, tested and implemented can be reused
+as required. Saves a lot of time.
+
+Single variable can be used to store multiple data types.
+
+Easy to debug the codes.
+
+
+** Inheritance **
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+
+Parent class is the class being inherited from, also called base class.
+
+Child class is the class that inherits from another class, also called derived class.
+
+--- Inheritance Advantages --
+it provides Code reusability, readability, and scalability.
+It reduces code repetition. You can place all the standard methods and attributes in the parent class.
+These are accessible by the child derived from it.
+By dividing the code into multiple classes, the applications look better, and the error identification is easy.
+
+** disadvantages inheritance **
+1-Inheritance needs more time to process, as it needs to navigate through multiple classes for its implementation.
+2- Inheritance might be complex for implementation, as well. So if not correctly implemented, this might lead to
+unexpected errors or incorrect outputs.
+
+6. What are the various types of inheritance?
+: Single inheritance
+: Multiple inheritances
+: Multi-level inheritance
+: Hierarchical inheritance
+:  Hybrid inheritance
+
+
+** Data Abstraction **
+as an user we don't want to know how the components of the software work, or how it's made. we only want to
+know how the software solves your problem. Abstraction is the method of hiding unnecessary details from the
+necessary ones. It is one of the main features of OOPs.
+For example, consider a car. You only need to know how to run a car, and not how the wires are connected inside it.
+This is called abstraction.
+In oops, Abstraction provides a programmer to hide all the irrelevant data/process of an application in order to reduce
+complexity and increase the efficiency of the program.
+
+Adv of abstraction in oops --
+To ensure security of an application/ software data abstraction is very important.
+
+7 -How much memory does a class occupy?
+Classes do not consume any memory. They are just a blueprint based on which objects are created. Now when objects are
+created, they actually initialize the class members and methods and therefore objects consume memory.
+
+8- Is it always necessary to create objects from class?
+No. An object is necessary to be created if the base class has non-static methods. But if the class has static methods,
+then objects don’t need to be created. You can call the class method directly in this case, using the class name.
+We need objects for static methods.
+
+9- Define Constructors
+Constructors are special methods whose name is the same as the class name. The constructors serve the special
+purpose of initializing the objects.
+Type of constructors -
+1-default constructor - constructor which doesn’t take any argument. It has no parameters
+2-Parameterized constructor: The constructors that take some arguments
+3-Copy constructor: A copy constructor is a member function that initializes an object using another object of
+the same class.
+
+10. What is a destructor?
+Contrary to constructors, which initialize objects and specify space for them, Destructors are also special methods.
+But destructors free up the resources and memory occupied by an object. Destructors are automatically called
+when an object is being destroyed.
+
+11.  Are class and structure the same? If not, what's the difference between a class and a structure?
+No,  the structure is saved in the stack memory, whereas the class is saved in the heap memory. Also, Data Abstraction
+cannot be achieved with the help of structure, but with class, Abstraction is majorly used.
+
+12.  What is an interface?
+An interface refers to a special type of class, which contains methods, but not their definition. Only the declaration
+of methods is allowed inside an interface. To use an interface, you cannot create objects. Instead, you need
+to implement that interface and define the methods for their implementation.
+
+13.  How is an abstract class different from an interface?
+Interface and abstract class both are special types of classes that contain only the methods declaration and
+not their implementation. But the interface is entirely different from an abstract class. The main difference
+between the two is that, when an interface is implemented, the subclass must define all its methods and provide
+its implementation. Whereas when an abstract class is inherited, the subclass does not need to provide the
+definition of its abstract method, until and unless the subclass is using it.
+
+Also, an abstract class can contain abstract methods as well as non-abstract methods.
+
+14.  What are access specifiers and what is their significance?
+special type of keywords, which are used to provide access for data members and methods, Some of the access specifiers
+or access modifiers include “private”, "protected" and “public”, etc. These access specifiers also play a very vital role in
+achieving Encapsulation - one of the major features of OOPs.
+
+15.  What is an exception?
+An exception can be considered as a special event, which is raised during the execution of a program at runtime, that
+stops the execution of the program.
+
+16. what is execption handling.
+The exceptions can be handled in the program beforehand and prevent the execution from stopping. This is known
+as exception handling. So exception handling is the mechanism for identifying the undesirable states that the
+program can reach and specifying the desirable outcomes of such states.
+Try-catch is the most common method used for handling exceptions in the program
+
+17. What is meant by Garbage Collection in OOPs world?
+Object-oriented programming revolves around entities like objects. Each object consumes memory and there can be
+multiple objects of a class. So if these objects and their memories are not handled properly, then it might lead
+to certain memory-related errors and the system might fail.
+
+Garbage collection refers to this mechanism of handling the memory in the program. Through garbage collection,
+the unwanted memory is freed up by removing the objects that are no longer needed.
+

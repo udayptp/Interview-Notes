@@ -1,5 +1,5 @@
 """
-Method overriding is also considered as runtime polymorphism and python supports it.
+Method overriding is also considered as runtime polymorphism and python supports it. feature of run time polymorphism
 we are overriding base class method in subclass or child class.
 """
 
