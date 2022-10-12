@@ -19,19 +19,71 @@ Object = A specific car of any model, like the car you own
 Characteristics = What is the color of our car? and number of our car? etc
 Behavior = How to start the car? How to change the gear of the car? etc.
 
-What is need of oops?
-There are many reasons why OOPs is mostly preferred, and many of the most widely used programming
-languages support and use this model, such as Java, C++, Python, C#, etc.
-but the most important among them are-
-1-OOP concepts help the programmer control and access the data in a program easily. In addition, it
-improves code readability and reusability.
-2-With oops a big software can be easily written and managed using OOPs.
-3-Using functionalities like data abstraction and data hiding, OOPs ensure the security of the code/software.
-4-OOP concepts like inheritance helps us to eliminate the code redundancy.
-5-Increases productivity of a developer and save development time.
+Ques-  What is need/advantages of oops?
+most widely used programming languages support and use this model, such as Java, C++, Python, C#, etc.
 
-Cons of oops-
+1-OOP concepts help the programmer easily access, use or modify the object data or methods in a program easily.
+2-it improves code readability and promotes code reusability by reducing redundancy.
+3-With oops a big software can be easily written and managed using OOPs.
+4-Using functionalities like data abstraction and data hiding, OOPs ensure the security of the code/software.
+5-OOP concepts like inheritance helps us to eliminate the code redundancy.
+6-Increases productivity of a developer and save development time.
+7- Polymorphism offers a lot of flexibility in OOPs.
+8-OOPs also helps to hide the unnecessary details with the help of Data Abstraction.
+
+*** Cons of oops *** -
 1-Everything is treated as object in OOP so before applying it we need to have excellent thinking in
 terms of objects.
 2-Requires much effort to create a perfect OOP concept-based code.
 
+Q- What are some other programming paradigms other than OOPs?
+** Procedural Programming Paradigm ** :  Procedural programming specifies the steps a program must take to reach the
+desired state, usually read in order from top to bottom.
+(In simple language execution happens step by step from top to bottom)
+
+Q- What are the main features of OOPs?
+there are 4 main features in oops.
+1-Inheritance
+2-Encapsulation
+3-Polymorphism
+4-Data Abstraction
+
+1- ** Encapsulation **
+By Encapsulation, all the necessary data and methods are bind together and all the unnecessary details are hidden
+to the normal user.So Encapsulation is the process of binding data members and methods of a program together to
+do a specific job, without revealing unnecessary details.
+
+Thus encapsulation supports two concepts-
+
+1- Data hiding -  Hiding unnecessary details/unwanted information from normal user (restricting access of any member
+or method of an object from outside of class).
+encapsulation allows us to restrict accessing variables and methods directly and prevent accidental data modification
+by creating private data members and methods within a class.
+
+2- Data binding - binding the data members and the methods together as a whole, as a class.
+
+** Advantages of Encapsulation **
+Security: The main advantage of using encapsulation is the security of the data. Encapsulation protects an
+object from unauthorized access. It allows private and protected access levels to prevent accidental data
+modification.
+
+Data Hiding: The user would not be knowing what is going on behind the scene. They would only be knowing that
+to modify a data member, call the setter method. To read a data member, call the getter method. What these
+setter and getter methods are doing is hidden from them.
+
+Simplicity: Binding data members and methods within a class makes code more readable and maintainable.
+
+** Polymorphism **
+In OOPs, Polymorphism refers to the process by which some code, data, method, or object behaves differently under
+different circumstances. Compile-time polymorphism and Run time polymorphism are the two types of polymorphisms
+in OOPs.
+ 1- Compile Time Polymorphism -  Compile time polymorphism, also known as Static Polymorphism or early binding,
+ refers to the type of Polymorphism that happens at compile time.
+ Method overloading is the compile-time polymorphism where more than one methods share the same name with different
+ parameters or signature and different return type.
+ Its faster in execution than runtime.
+
+2- Run time Polymorphism - Runtime polymorphism, also known as Dynamic Polymorphism, refers to the type of Polymorphism
+that happens at the run time. What it means is it can't be decided by the compiler. Therefore what shape or
+value has to be taken depends upon the execution.
+In runtime polymorphism inheritence is involved and we can override the method of base class in subclasses.
