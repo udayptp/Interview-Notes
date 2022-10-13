@@ -199,3 +199,30 @@ to certain memory-related errors and the system might fail.
 Garbage collection refers to this mechanism of handling the memory in the program. Through garbage collection,
 the unwanted memory is freed up by removing the objects that are no longer needed.
 
+18. What are virtual functions in c++
+virtual functions are functions that are present in parent class and are overridden by the subclass. These fucntions
+are used to achieve run time polymorphism in c++.
+
+19. Exception handling
+Type of errors: 1- syntax error or compile time error.
+                2- Logical errors - code gets compile but output is wrong.
+                3- Run time error - wrong input by the user, sometimes getting wrong/unexpected result.
+
+need of exeption handling - in case of run time error our program should not stop.
+use try and catch/except(in python) to handle exception.
+
+try - critical statement that can give error, (try to execute piece of code in try block)
+if fails to execute try block, catch block will get executed.
+
+catch - if try block falis to execute code.
+
+finally - finally block will be executed if we get error as well as if we don't get the error.
+Ex- a= 5
+b=0
+try :
+    print("start")
+    print(a/b)
+except Exception as e:
+    print("can't divide with zero")
+finally:
+    print("end")
