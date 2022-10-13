@@ -208,13 +208,13 @@ Type of errors: 1- syntax error or compile time error.
                 2- Logical errors - code gets compile but output is wrong.
                 3- Run time error - wrong input by the user, sometimes getting wrong/unexpected result.
 
-need of exeption handling - in case of run time error our program should not stop.
+need of exception handling - in case of run time error our program should not stop.
 use try and catch/except(in python) to handle exception.
 
 try - critical statement that can give error, (try to execute piece of code in try block)
 if fails to execute try block, catch block will get executed.
 
-catch - if try block falis to execute code.
+catch - if try block fails to execute code.
 
 finally - finally block will be executed if we get error as well as if we don't get the error.
 Ex- a= 5
