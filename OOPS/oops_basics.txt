@@ -77,6 +77,9 @@ Simplicity: Binding data members and methods within a class makes code more read
 In OOPs, Polymorphism refers to the process by which some code, data, method, or object behaves differently under
 different circumstances. Compile-time polymorphism and Run time polymorphism are the two types of polymorphisms
 in OOPs.
+ex - A person at the same time can have different characteristics. Like a man at the same time is a father, a husband,
+an employee. So the same person possesses different behavior in different situations. This is called polymorphism.
+
  1- Compile Time Polymorphism -  Compile time polymorphism, also known as Static Polymorphism or early binding,
  refers to the type of Polymorphism that happens at compile time.
  Method overloading is the compile-time polymorphism where more than one methods share the same name with different
@@ -226,3 +229,22 @@ except Exception as e:
     print("can't divide with zero")
 finally:
     print("end")
+
+ZeroDivisionError:	Raised when the second operator in a division is zero
+ValueError:	Raised when there is a wrong value in a specified data type
+ArithmeticError: 	Raised when an error occurs in numeric calculations
+AssertionError:	Raised when an assert statement fails
+Exception:	Base class for all exceptions
+NullPointerException:   This type of exception occurs when you try to access an object with the help of a reference variable whose current
+value is null or empty.
+ex- // Program to demonstrate the NullPointerException
+class SampleNullPointer {
+    public static void main(String args[]) {
+        try {
+            String a1 = null; // null value
+            System.out.println(a1.charAt(0));
+        } catch(NullPointerException e) {
+            System.out.println("NullPointerException is found in the program.");
+        }
+    }
+}

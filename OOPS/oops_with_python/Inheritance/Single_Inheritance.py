@@ -4,7 +4,7 @@ Single Inheritance - When a child class inherits from only one parent class, it 
 Create a class named Person, with firstname and lastname properties, and a printname method:
 """
 
-class Person:
+class Person(object):
   def __init__(self, fname, lname):
     self.firstname = fname
     self.lastname = lname
@@ -42,7 +42,7 @@ methods and properties from its parent.
 """
 
 x = Student("Mike", "Olsen", 2019)
-
+x.welcome()
 """
 If you add a method in the child class with the same name as a function in the parent class, the inheritance of the 
 parent method will be overridden.

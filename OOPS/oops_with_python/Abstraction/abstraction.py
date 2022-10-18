@@ -3,9 +3,8 @@ In Python, abstraction can be achieved by using abstract classes and interfaces.
 An Abstract class can contain the both method normal and abstract method.
 we cannot create objects for the abstract class.
 Python provides the abc module to use the abstraction in the Python program.
-"""
 
-"""
+
 A class that consists of one or more abstract method is called the abstract class. Abstract methods do not 
 contain their implementation. Abstract class can be inherited by the subclass and abstract method gets its 
 definition in the subclass. Abstraction classes are meant to be the blueprint of the other class.

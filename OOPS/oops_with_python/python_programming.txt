@@ -1,0 +1,7 @@
+1- Static keyword in python?
+Python does not have a 'static' keyword to declare the static variable. In Python, you simply declare a variable inside
+the class, note that it should not be inside any method, and that variable will be known as a static or class variable.
+
+static /class variable - define at class level
+instance variable - inside __init__ method
+local variable - inside method
