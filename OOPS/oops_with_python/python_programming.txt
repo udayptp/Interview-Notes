@@ -5,3 +5,7 @@ the class, note that it should not be inside any method, and that variable will 
 static /class variable - define at class level
 instance variable - inside __init__ method
 local variable - inside method
+
+Static and dynamic memory allocation -
+When the allocation of memory performs at the compile time, then it is known as static memory. When the memory
+allocation is done at the execution or run time, then it is called dynamic memory allocation

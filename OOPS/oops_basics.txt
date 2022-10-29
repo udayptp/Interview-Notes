@@ -195,9 +195,9 @@ program can reach and specifying the desirable outcomes of such states.
 Try-catch is the most common method used for handling exceptions in the program
 
 17. What is meant by Garbage Collection in OOPs world?
-Object-oriented programming revolves around entities like objects. Each object consumes memory and there can be
-multiple objects of a class. So if these objects and their memories are not handled properly, then it might lead
-to certain memory-related errors and the system might fail.
+since most of the widely used programming languages supports Object-oriented programming that revolves around entities
+like objects. Each object consumes memory and there can be multiple objects of a class. So if these objects and their
+memories are not handled properly, then it might lead to certain memory-related errors and the system might fail.
 
 Garbage collection refers to this mechanism of handling the memory in the program. Through garbage collection,
 the unwanted memory is freed up by removing the objects that are no longer needed.
@@ -248,3 +248,14 @@ class SampleNullPointer {
         }
     }
 }
+Or
+a = [1, 2, 3]
+try:
+    print ("Second element = %d" %(a[1]))
+
+    # Throws error since there are only 3 elements in array
+    print ("Fourth element = %d" %(a[3]))
+
+except:
+    print ("An error occurred")
+
