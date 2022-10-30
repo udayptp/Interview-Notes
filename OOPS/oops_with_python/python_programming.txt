@@ -8,4 +8,54 @@ local variable - inside method
 
 Static and dynamic memory allocation -
 When the allocation of memory performs at the compile time, then it is known as static memory. When the memory
-allocation is done at the execution or run time, then it is called dynamic memory allocation
+allocation is done at the execution or run time, then it is called dynamic memory allocation.
+
+Destructor Code in Python-
+The destructor was called after the program ended.
+
+class Employee:
+
+    # Initializing
+    def __init__(self):
+        print('Employee created.')
+
+    # Deleting (Calling destructor)
+    def __del__(self):
+        print('Destructor called, Employee deleted.')
+
+obj = Employee()
+del obj
+
+Output:---------------------------------
+Employee created.
+Destructor called, Employee deleted.
+
+2nd Example -
+
+class Employee:
+
+    # Initializing
+    def __init__(self):
+        print('Employee created')
+
+    # Calling destructor
+    def __del__(self):
+        print("Destructor called")
+
+def Create_obj():
+    print('Making Object...')
+    obj = Employee()
+    print('function end...')
+    return obj
+
+print('Calling Create_obj() function...')
+obj = Create_obj()
+print('Program End...')
+
+Output:----------------------------
+Calling Create_obj() function...
+Making Object...
+Employee created
+function end...
+Program End...
+Destructor called

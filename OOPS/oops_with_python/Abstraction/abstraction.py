@@ -1,5 +1,5 @@
 """
-In Python, abstraction can be achieved by using abstract classes and interfaces.
+In Python, abstraction can be achieved by using abstract classes.
 An Abstract class can contain the both method normal and abstract method.
 we cannot create objects for the abstract class.
 Python provides the abc module to use the abstraction in the Python program.

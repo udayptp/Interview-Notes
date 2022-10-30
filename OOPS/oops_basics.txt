@@ -24,12 +24,11 @@ most widely used programming languages support and use this model, such as Java,
 
 1-OOP concepts help the programmer easily access, use or modify the object data or methods in a program easily.
 2-it improves code readability and promotes code reusability by reducing redundancy.
-3-With oops a big software can be easily written and managed using OOPs.
+3-With oops a big software can be easily written and managed/maintained using OOPs.
 4-Using functionalities like data abstraction and data hiding, OOPs ensure the security of the code/software.
 5-OOP concepts like inheritance helps us to eliminate the code redundancy.
 6-Increases productivity of a developer and save development time.
 7- Polymorphism offers a lot of flexibility in OOPs.
-8-OOPs also helps to hide the unnecessary details with the help of Data Abstraction.
 
 *** Cons of oops *** -
 1-Everything is treated as object in OOP so before applying it we need to have excellent thinking in
@@ -145,7 +144,7 @@ created, they actually initialize the class members and methods and therefore ob
 8- Is it always necessary to create objects from class?
 No. An object is necessary to be created if the base class has non-static methods. But if the class has static methods,
 then objects don’t need to be created. You can call the class method directly in this case, using the class name.
-We need objects for static methods.
+We need objects for non-static methods.
 
 9- Define Constructors
 Constructors are special methods whose name is the same as the class name. The constructors serve the special
@@ -159,7 +158,13 @@ the same class.
 10. What is a destructor?
 Contrary to constructors, which initialize objects and specify space for them, Destructors are also special methods.
 But destructors free up the resources and memory occupied by an object. Destructors are automatically called
-when an object is being destroyed.
+when an object is being destroyed. A destructor has the same name as the class.
+If you do not define a destructor, the compiler will provide a default one; for many classes this is sufficient.
+You only need to define a custom destructor when the class stores handles to system resources that need to be released.
+In Python, destructors are not needed as much as in C++ because Python has a garbage collector that handles memory
+management automatically.
+The __del__() method is a known as a destructor method in Python. It is called when all references to the object have
+been deleted i.e when an object is garbage collected.
 
 11.  Are class and structure the same? If not, what's the difference between a class and a structure?
 No,  the structure is saved in the stack memory, whereas the class is saved in the heap memory. Also, Data Abstraction
@@ -183,6 +188,7 @@ Also, an abstract class can contain abstract methods as well as non-abstract met
 special type of keywords, which are used to provide access for data members and methods, Some of the access specifiers
 or access modifiers include “private”, "protected" and “public”, etc. These access specifiers also play a very vital role in
 achieving Encapsulation - one of the major features of OOPs.
+they are also used to prevent accidental data modification by putting restriction on data variables and methods.
 
 15.  What is an exception?
 An exception can be considered as a special event, which is raised during the execution of a program at runtime, that
@@ -198,6 +204,7 @@ Try-catch is the most common method used for handling exceptions in the program
 since most of the widely used programming languages supports Object-oriented programming that revolves around entities
 like objects. Each object consumes memory and there can be multiple objects of a class. So if these objects and their
 memories are not handled properly, then it might lead to certain memory-related errors and the system might fail.
+
 
 Garbage collection refers to this mechanism of handling the memory in the program. Through garbage collection,
 the unwanted memory is freed up by removing the objects that are no longer needed.
@@ -220,6 +227,7 @@ if fails to execute try block, catch block will get executed.
 catch - if try block fails to execute code.
 
 finally - finally block will be executed if we get error as well as if we don't get the error.
+This can be useful to close objects and clean up resources.
 Ex- a= 5
 b=0
 try :
